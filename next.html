@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5VBj5SZdgu4IlMTqTDBVHV1hqc6jN1VxHhA&s" type="image/x-icon">
+    
+</head>
+
+    <center>
+    
+    <br>
+        <table style="width: 95%;" border="4px">
+  
+<body> 
+            <tr>
+
+                <th style="color: black;height: 80px;" colspan="2">
+                    
+    <div class="progress">
+        <div  class="bar" id="progressBar" ></div>
+    </div>
+                   Second Inning 
+                </th></tr>
+            <tr>
+                <th>
+                    Wickets
+                </th>
+                <td ><center><p id="wicket">0</p></center>
+                </td>
+            </tr>  <tr>
+                <th>
+                    Score
+                </th>
+                <td ><center><p id="score" class="scor">0</p></center>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                Over
+                </th>
+                   <td >
+                   <center> <p id="over">0</p></center>
+
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Ball
+                </th>
+                  <td style="width: 50px;">
+                  <center> <p id="ball">0</p></center> 
+
+                </td>
+            </tr>
+        </table>
+        <br>
+<button onclick="dot()">Dot</button>
+<button onclick="oneplus()">1</button>
+<button onclick="twoplus()">2</button><br><br>
+<button onclick="threeplus()">3</button>
+<button onclick="fourplus()">4</button>
+<button onclick="sixplus()">6</button><br><br>
+
+<center>
+
+    <button onclick="wide()">Wide</button>
+<button style="background-color:black ;color:aqua ;font-size: larger;" onclick="re()">Reset</button>
+    
+    <button onclick="noball()">No Ball</button><br><br>
+    <button onclick="wide1()" >  Wide+1</button>
+    <button onclick="wide2()">  Wide+2 </button>
+    <button onclick="wide4()">  Wide+4 </button>
+    <br><br>    
+    <button onclick="no1()" > No Ball  +1</button>
+    <button onclick="no4()">  No Ball  +4 </button>
+    <button onclick="no6()"> No Ball  +6 </button>
+</center><br>
+<button onclick="wicket()">Wicket + 0</button>
+
+<button onclick="wicket1()">Wicket + 1</button>
+<button onclick="wicket2()">Wicket + 2</button>
+
+<br><br>
+<button style="width:84%;font-size: larger;" onclick="nexts()">
+Previous Innings
+</button>
+</center>
+    <script src="app.js"></script>
+</body>
+</html>

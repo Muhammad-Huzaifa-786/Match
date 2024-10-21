@@ -1,0 +1,63 @@
+button{
+    width: 26%;
+    height: 54px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 3px black solid 
+    ;
+    margin: 3px;
+}
+table ,td ,th {
+    border: 2px solid rgb(144, 193, 183);
+    font-size: 20px;
+    background-color:rgb(43, 255, 255) ;
+    color: rgb(255, 0, 0);
+
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+    border: 5px rgb(0, 238, 255) solid ;
+    background-color:rgb(105, 102, 102);
+    color: rgb(251, 255, 0);
+    font-size: 17px;
+    width: 27%;
+    height: 56px;
+}
+th{
+    width: 90px;
+    font-size: 25px;
+}
+td{
+    font-size: 25px;
+}
+button > a  :hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    border: 10px ,rgb(0, 238, 255), solid ;
+    background-color:rgb(103, 102, 105);
+    color: rgb(251, 255, 0);
+}
+
+.progress {
+    width: 95%;
+    background-color: #f1f1f1;
+    margin-left: 2.5%;
+    border-radius: 10px;
+    
+  }
+  
+  .bar {
+    max-width: 100%;
+    width: 0%;
+    height: 30px;
+    background-color:yellow;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    border-radius: 5px;
+    
+  } 
+  
